@@ -1,13 +1,11 @@
-    /*
+/*
         CSS relacionado a pagina curriculo.html
     */
 .folha {
   width: 695px;
   height: 1300px;
-  margin:auto;
+  margin: auto;
   position: relative;
-
-  
 }
 #photo {
   width: 150px;
@@ -20,19 +18,30 @@
   margin-left: 20px;
 }
 
-.container{
+.container {
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
+  
+}
+
+.container02 {
+  display: flex;
+
+  
+}
+.container02 > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
 }
 
 .menu {
   display: flex;
   background-color: black;
   border-radius: 10px;
-  border:1px solid black ;
-
+  border: 1px solid black;
 }
 
 .menu li {
@@ -42,19 +51,19 @@
 
 .menu li a {
   text-decoration: none;
-  color:white;
+  color: white;
   font-size: 18px;
 }
 
-.menu li a:hover{
+.menu li a:hover {
   color: gray;
 }
 
-.sobre{
-    position:absolute;
-    margin-top:20px;
-    margin-left:50px;
-    width:505px;
+.sobre {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 505px;
 }
 
 .tamanho {
@@ -89,6 +98,5 @@
 */
 
 .form-contain {
-    text-align: center;
+  text-align: center;
 }
-
